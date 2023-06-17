@@ -1,0 +1,11 @@
+paths:
+  /api/pets/:
+    get:
+      summary: "Consulta por todos las mascotas"
+      tags:
+        - Pets
+      responses:
+        "200":
+          description: "Mascotas obtenidas"
+        "500":
+          description: "Error del servidor al concultar las Mascotas"
